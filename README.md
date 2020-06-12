@@ -3,3 +3,5 @@ First part of the code is web scrapping to get the desired data from web. The sc
 Second part of the code is to create the desired database containing users urls, number of reviews, their rank and positions based upon reviews. We save this database as a csv file.The file 'Melbourne.csv' in the repository is the output file for this step.
 
 The last part is the function to get desired outputs(Reviews,Position) by providing user url as the input. For this part the csv file created in second part('Melbourne.csv') was used to provide number of reviews and position for each user.
+
+To run the code Run the function profile_rank() and enter the url when prompted.The output will be printed representing the number of reviews that user has and user position among other users.
